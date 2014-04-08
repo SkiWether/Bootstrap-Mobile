@@ -1,125 +1,310 @@
 0 info it worked if it ends with ok
-1 verbose cli [ 'node', '/usr/local/bin/npm', 'install' ]
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', 'grunt-jekyll' ]
 2 info using npm@1.4.3
 3 info using node@v0.10.26
 4 verbose readDependencies using package.json deps
-5 verbose install where, deps [ '/Users/lwetherell/Documents/_dev/_Bootstrap/bower_components/bootstrap',
-5 verbose install   [ 'btoa',
-5 verbose install     'canonical-json',
-5 verbose install     'grunt',
-5 verbose install     'grunt-banner',
-5 verbose install     'grunt-contrib-clean',
-5 verbose install     'grunt-contrib-concat',
-5 verbose install     'grunt-contrib-connect',
-5 verbose install     'grunt-contrib-copy',
-5 verbose install     'grunt-contrib-csslint',
-5 verbose install     'grunt-contrib-cssmin',
-5 verbose install     'grunt-contrib-jade',
-5 verbose install     'grunt-contrib-jshint',
-5 verbose install     'grunt-contrib-less',
-5 verbose install     'grunt-contrib-qunit',
-5 verbose install     'grunt-contrib-uglify',
-5 verbose install     'grunt-contrib-watch',
-5 verbose install     'grunt-csscomb',
-5 verbose install     'grunt-exec',
-5 verbose install     'grunt-html-validation',
-5 verbose install     'grunt-jekyll',
-5 verbose install     'grunt-jscs-checker',
-5 verbose install     'grunt-saucelabs',
-5 verbose install     'grunt-sed',
-5 verbose install     'load-grunt-tasks',
-5 verbose install     'markdown' ] ]
-6 info preinstall bootstrap@3.1.1
-7 verbose readDependencies using package.json deps
-8 verbose already installed skipping grunt@~0.4.2 /Users/lwetherell/Documents/_dev/_Bootstrap/bower_components/bootstrap
-9 verbose already installed skipping canonical-json@~0.0.3 /Users/lwetherell/Documents/_dev/_Bootstrap/bower_components/bootstrap
-10 verbose already installed skipping grunt-banner@~0.2.0 /Users/lwetherell/Documents/_dev/_Bootstrap/bower_components/bootstrap
-11 verbose already installed skipping grunt-contrib-clean@~0.5.0 /Users/lwetherell/Documents/_dev/_Bootstrap/bower_components/bootstrap
-12 verbose already installed skipping grunt-contrib-connect@~0.6.0 /Users/lwetherell/Documents/_dev/_Bootstrap/bower_components/bootstrap
-13 verbose already installed skipping grunt-contrib-concat@~0.3.0 /Users/lwetherell/Documents/_dev/_Bootstrap/bower_components/bootstrap
-14 verbose already installed skipping grunt-contrib-copy@~0.5.0 /Users/lwetherell/Documents/_dev/_Bootstrap/bower_components/bootstrap
-15 verbose already installed skipping grunt-contrib-csslint@~0.2.0 /Users/lwetherell/Documents/_dev/_Bootstrap/bower_components/bootstrap
-16 verbose already installed skipping grunt-contrib-cssmin@~0.7.0 /Users/lwetherell/Documents/_dev/_Bootstrap/bower_components/bootstrap
-17 verbose already installed skipping grunt-contrib-jade@~0.9.1 /Users/lwetherell/Documents/_dev/_Bootstrap/bower_components/bootstrap
-18 verbose already installed skipping grunt-contrib-jshint@~0.8.0 /Users/lwetherell/Documents/_dev/_Bootstrap/bower_components/bootstrap
-19 verbose already installed skipping grunt-contrib-less@~0.9.0 /Users/lwetherell/Documents/_dev/_Bootstrap/bower_components/bootstrap
-20 verbose already installed skipping grunt-contrib-qunit@~0.4.0 /Users/lwetherell/Documents/_dev/_Bootstrap/bower_components/bootstrap
-21 verbose already installed skipping grunt-contrib-uglify@~0.3.0 /Users/lwetherell/Documents/_dev/_Bootstrap/bower_components/bootstrap
-22 verbose already installed skipping grunt-contrib-watch@~0.5.3 /Users/lwetherell/Documents/_dev/_Bootstrap/bower_components/bootstrap
-23 verbose already installed skipping grunt-csscomb@~2.0.1 /Users/lwetherell/Documents/_dev/_Bootstrap/bower_components/bootstrap
-24 verbose already installed skipping grunt-exec@0.4.3 /Users/lwetherell/Documents/_dev/_Bootstrap/bower_components/bootstrap
-25 verbose already installed skipping grunt-html-validation@~0.1.13 /Users/lwetherell/Documents/_dev/_Bootstrap/bower_components/bootstrap
-26 verbose already installed skipping grunt-jekyll@~0.4.1 /Users/lwetherell/Documents/_dev/_Bootstrap/bower_components/bootstrap
-27 verbose already installed skipping grunt-jscs-checker@~0.3.0 /Users/lwetherell/Documents/_dev/_Bootstrap/bower_components/bootstrap
-28 verbose already installed skipping grunt-saucelabs@~5.0.0 /Users/lwetherell/Documents/_dev/_Bootstrap/bower_components/bootstrap
-29 verbose already installed skipping grunt-sed@~0.1.1 /Users/lwetherell/Documents/_dev/_Bootstrap/bower_components/bootstrap
-30 verbose already installed skipping load-grunt-tasks@~0.3.0 /Users/lwetherell/Documents/_dev/_Bootstrap/bower_components/bootstrap
-31 verbose already installed skipping markdown@~0.5.0 /Users/lwetherell/Documents/_dev/_Bootstrap/bower_components/bootstrap
-32 verbose already installed skipping btoa@~1.1.1 /Users/lwetherell/Documents/_dev/_Bootstrap/bower_components/bootstrap
-33 silly resolved []
-34 info build /Users/lwetherell/Documents/_dev/_Bootstrap/bower_components/bootstrap
-35 verbose linkStuff [ false,
-35 verbose linkStuff   false,
-35 verbose linkStuff   false,
-35 verbose linkStuff   '/Users/lwetherell/Documents/_dev/_Bootstrap/bower_components' ]
-36 info linkStuff bootstrap@3.1.1
-37 verbose linkBins bootstrap@3.1.1
-38 verbose linkMans bootstrap@3.1.1
-39 verbose rebuildBundles bootstrap@3.1.1
-40 verbose rebuildBundles [ '.bin',
-40 verbose rebuildBundles   'btoa',
-40 verbose rebuildBundles   'canonical-json',
-40 verbose rebuildBundles   'grunt',
-40 verbose rebuildBundles   'grunt-banner',
-40 verbose rebuildBundles   'grunt-contrib-clean',
-40 verbose rebuildBundles   'grunt-contrib-concat',
-40 verbose rebuildBundles   'grunt-contrib-connect',
-40 verbose rebuildBundles   'grunt-contrib-copy',
-40 verbose rebuildBundles   'grunt-contrib-csslint',
-40 verbose rebuildBundles   'grunt-contrib-cssmin',
-40 verbose rebuildBundles   'grunt-contrib-jade',
-40 verbose rebuildBundles   'grunt-contrib-jshint',
-40 verbose rebuildBundles   'grunt-contrib-less',
-40 verbose rebuildBundles   'grunt-contrib-qunit',
-40 verbose rebuildBundles   'grunt-contrib-uglify',
-40 verbose rebuildBundles   'grunt-contrib-watch',
-40 verbose rebuildBundles   'grunt-csscomb',
-40 verbose rebuildBundles   'grunt-exec',
-40 verbose rebuildBundles   'grunt-html-validation',
-40 verbose rebuildBundles   'grunt-jekyll',
-40 verbose rebuildBundles   'grunt-jscs-checker',
-40 verbose rebuildBundles   'grunt-saucelabs',
-40 verbose rebuildBundles   'grunt-sed',
-40 verbose rebuildBundles   'load-grunt-tasks',
-40 verbose rebuildBundles   'markdown' ]
-41 info install bootstrap@3.1.1
-42 info postinstall bootstrap@3.1.1
-43 info prepublish bootstrap@3.1.1
-44 error peerinvalid The package grunt does not satisfy its siblings' peerDependencies requirements!
-44 error peerinvalid Peer grunt-banner@0.2.2 wants grunt@~0.4.1
-44 error peerinvalid Peer grunt-contrib-clean@0.5.0 wants grunt@~0.4.0
-44 error peerinvalid Peer grunt-contrib-concat@0.3.0 wants grunt@~0.4.0
-44 error peerinvalid Peer grunt-contrib-connect@0.6.0 wants grunt@~0.4.0
-44 error peerinvalid Peer grunt-contrib-copy@0.5.0 wants grunt@~0.4.0
-44 error peerinvalid Peer grunt-contrib-csslint@0.2.0 wants grunt@~0.4.0
-44 error peerinvalid Peer grunt-contrib-cssmin@0.7.0 wants grunt@~0.4.1
-44 error peerinvalid Peer grunt-contrib-jade@0.9.1 wants grunt@~0.4.1
-44 error peerinvalid Peer grunt-contrib-jshint@0.8.0 wants grunt@~0.4.0
-44 error peerinvalid Peer grunt-contrib-less@0.9.0 wants grunt@~0.4.0
-44 error peerinvalid Peer grunt-contrib-qunit@0.4.0 wants grunt@~0.4.0
-44 error peerinvalid Peer grunt-contrib-uglify@0.3.3 wants grunt@~0.4.0
-44 error peerinvalid Peer grunt-contrib-watch@0.5.3 wants grunt@~0.4.0
-44 error peerinvalid Peer grunt-csscomb@2.0.1 wants grunt@~0.4.2
-44 error peerinvalid Peer grunt-exec@0.4.3 wants grunt@~0.4
-44 error peerinvalid Peer grunt-html-validation@0.1.15 wants grunt@~0.4.1
-44 error peerinvalid Peer grunt-jekyll@0.4.1 wants grunt@~0.4.1
-44 error peerinvalid Peer grunt-jscs-checker@0.3.2 wants grunt@0.4.2
-44 error peerinvalid Peer grunt-saucelabs@5.0.1 wants grunt@~0.4.1
-44 error peerinvalid Peer grunt-sed@0.1.1 wants grunt@~0.4
-45 error System Darwin 13.1.0
-46 error command "node" "/usr/local/bin/npm" "install"
-47 error cwd /Users/lwetherell/Documents/_dev/_Bootstrap/bower_components/bootstrap
-48 error node -v v0.10.26
-49 error npm -v 1.4.3
-50 error code EPEERINVALID
-51 verbose exit [ 1, true ]
+5 verbose cache add [ 'grunt-jekyll', null ]
+6 verbose cache add name=undefined spec="grunt-jekyll" args=["grunt-jekyll",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: 'grunt-jekyll',
+7 verbose parsed url   path: 'grunt-jekyll',
+7 verbose parsed url   href: 'grunt-jekyll' }
+8 silly lockFile 16add315-grunt-jekyll grunt-jekyll
+9 verbose lock grunt-jekyll /Users/lwetherell/.npm/16add315-grunt-jekyll.lock
+10 silly lockFile 16add315-grunt-jekyll grunt-jekyll
+11 silly lockFile 16add315-grunt-jekyll grunt-jekyll
+12 verbose addNamed [ 'grunt-jekyll', '' ]
+13 verbose addNamed [ null, '*' ]
+14 silly lockFile 17f6b28c-grunt-jekyll grunt-jekyll@
+15 verbose lock grunt-jekyll@ /Users/lwetherell/.npm/17f6b28c-grunt-jekyll.lock
+16 silly addNameRange { name: 'grunt-jekyll', range: '*', hasData: false }
+17 verbose url raw grunt-jekyll
+18 verbose url resolving [ 'https://registry.npmjs.org/', './grunt-jekyll' ]
+19 verbose url resolved https://registry.npmjs.org/grunt-jekyll
+20 info trying registry request attempt 1 at 18:20:16
+21 verbose etag "5UZYUVJ9Q4EXJO4CATCA9PO73"
+22 http GET https://registry.npmjs.org/grunt-jekyll
+23 http 304 https://registry.npmjs.org/grunt-jekyll
+24 silly registry.get cb [ 304,
+24 silly registry.get   { date: 'Fri, 04 Apr 2014 22:20:16 GMT',
+24 silly registry.get     server: 'Apache',
+24 silly registry.get     via: '1.1 varnish',
+24 silly registry.get     'last-modified': 'Fri, 04 Apr 2014 22:20:17 GMT',
+24 silly registry.get     'cache-control': 'max-age=1',
+24 silly registry.get     etag: '"5UZYUVJ9Q4EXJO4CATCA9PO73"',
+24 silly registry.get     'x-served-by': 'cache-v37-ASH',
+24 silly registry.get     'x-cache': 'MISS',
+24 silly registry.get     'x-cache-hits': '0',
+24 silly registry.get     'x-timer': 'S1396650016.953588247,VS0,VE271',
+24 silly registry.get     vary: 'Accept',
+24 silly registry.get     'content-length': '0',
+24 silly registry.get     'keep-alive': 'timeout=10, max=50',
+24 silly registry.get     connection: 'Keep-Alive' } ]
+25 verbose etag grunt-jekyll from cache
+26 silly addNameRange number 2 { name: 'grunt-jekyll', range: '*', hasData: true }
+27 silly addNameRange versions [ 'grunt-jekyll',
+27 silly addNameRange   [ '0.1.0',
+27 silly addNameRange     '0.1.5',
+27 silly addNameRange     '0.1.6',
+27 silly addNameRange     '0.2.0',
+27 silly addNameRange     '0.2.1',
+27 silly addNameRange     '0.2.2',
+27 silly addNameRange     '0.3.0',
+27 silly addNameRange     '0.3.2',
+27 silly addNameRange     '0.3.3',
+27 silly addNameRange     '0.3.5',
+27 silly addNameRange     '0.3.6',
+27 silly addNameRange     '0.3.8',
+27 silly addNameRange     '0.3.9',
+27 silly addNameRange     '0.4.0',
+27 silly addNameRange     '0.4.1' ] ]
+28 verbose addNamed [ 'grunt-jekyll', '0.4.1' ]
+29 verbose addNamed [ '0.4.1', '0.4.1' ]
+30 silly lockFile 9cf0a646-grunt-jekyll-0-4-1 grunt-jekyll@0.4.1
+31 verbose lock grunt-jekyll@0.4.1 /Users/lwetherell/.npm/9cf0a646-grunt-jekyll-0-4-1.lock
+32 silly lockFile 9cf0a646-grunt-jekyll-0-4-1 grunt-jekyll@0.4.1
+33 silly lockFile 9cf0a646-grunt-jekyll-0-4-1 grunt-jekyll@0.4.1
+34 silly lockFile 17f6b28c-grunt-jekyll grunt-jekyll@
+35 silly lockFile 17f6b28c-grunt-jekyll grunt-jekyll@
+36 silly resolved [ { name: 'grunt-jekyll',
+36 silly resolved     description: 'A custom grunt.js plugin that executes jekyll compile and/or watch for you',
+36 silly resolved     version: '0.4.1',
+36 silly resolved     homepage: 'https://github.com/dannygarcia/grunt-jekyll',
+36 silly resolved     author:
+36 silly resolved      { name: 'Danny Garcia',
+36 silly resolved        email: 'contact@danny-garcia.com',
+36 silly resolved        url: 'http://danny-garcia.com' },
+36 silly resolved     contributors: [ [Object] ],
+36 silly resolved     repository:
+36 silly resolved      { type: 'git',
+36 silly resolved        url: 'https://github.com/dannygarcia/grunt-jekyll.git' },
+36 silly resolved     bugs: { url: 'https://github.com/dannygarcia/grunt-jekyll/issues' },
+36 silly resolved     licenses: 'MIT',
+36 silly resolved     main: 'grunt.js',
+36 silly resolved     bin: { 'grunt-jekyll': 'bin/grunt-jekyll' },
+36 silly resolved     engines: { node: '>= 0.10.5' },
+36 silly resolved     dependencies: { tmp: '0.0.21' },
+36 silly resolved     devDependencies: { grunt: '~0.4.1', 'grunt-mocha-test': 'latest' },
+36 silly resolved     peerDependencies: { grunt: '~0.4.1' },
+36 silly resolved     scripts: { test: 'grunt test' },
+36 silly resolved     keywords: [ 'grunt.js', 'jekyll', 'grunt', 'gruntplugin' ],
+36 silly resolved     readme: '# grunt-jekyll\n\n[![Build Status](https://travis-ci.org/dannygarcia/grunt-jekyll.png?branch=master)](https://travis-ci.org/dannygarcia/grunt-jekyll)\n\n> Compile [Jekyll](http://jekyllrb.com/) sites with [Grunt](http://gruntjs.com/).\n\n## Getting Started\n\nThis plugin requires [Grunt](http://gruntjs.com/) `~0.4.0` and [Jekyll](http://jekyllrb.com/) `>= v1.0.0`.\n\nIf you haven\'t used [Grunt](http://gruntjs.com/) before, be sure to check out the [Getting Started](http://gruntjs.com/getting-started) guide which explains how to create a [Gruntfile](http://gruntjs.com/sample-gruntfile) as well as install and use Grunt plugins. Once you\'re familiar with that process you may install this plugin with the command:\n\n```shell\nnpm install grunt-jekyll --save-dev\n```\n\nAfter the plugin has been installed, load it in your Gruntfile with:\n\n```js\ngrunt.loadNpmTasks(\'grunt-jekyll\');\n```\n\n## Jekyll task\n\n_Run this task with the `grunt jekyll` command._\n\nThis task helps you compile your Jekyll static site with Grunt.js.\n\n### Options\n\nYou can use all of the configuration options available in the [Jekyll Documentation](http://jekyllrb.com/docs/configuration/), as well as some special options provided by this plugin.\n\n#### src\n\nType: `string`\nDefault: `.`\n\nDirectory where Jekyll will read files.\n\n#### dest\n\nType: `string`\nDefault: `./_site`\n\nDirectory where Jekyll will write files.\n\n#### watch\n\nType: `boolean`\nDefault: `false`\n\nRegenerate the site when files are modified.\nIf you are running multiple watch tasks in a project you should use [grunt-contrib-watch](https://github.com/gruntjs/grunt-contrib-watch) instead.\n\n#### serve\nType: `boolean`\nDefault: `false`\n\nBuild the site and start a Jekyll development server on http://localhost:4000. The server lasts forever: kill it with `ctrl+c`\n\nIf serve is false, the site is built with the `build` command.  \n\nFor complex projects you may want to use [grunt-contrib-connect](https://github.com/gruntjs/grunt-contrib-connect) instead.\n\n#### doctor\n\nType: `boolean`  \nDefault: `false`\n\nTest your site for common errors and deprecated code. Ignores all other options except `src`, `config`, and `bundleExec`.\n\n#### config\n\nType: `string`\nDefault: `_config.yml`\n\nSpecify a custom configuration file. Multiple files separated by a comma will cascade right to left.\n\n#### raw\n\nType: `string`\n\nCreate a temporary _config.yml with the contents of `raw`. This config file has greater precedence than the files in `config`.\n\n#### safe\n\nType: `boolean`\nDefault: `false`\n\nDisables custom plugins.\n\n#### plugins\n\nType: `string`\nDefault: `./_plugins`\n\nSpecify a plugins directory.\n\n#### layouts\n\nType: `string`\nDefault: `./_layouts`\n\nSpecify a layouts directory.\n\n#### drafts\n\nType: `boolean`\nDefault: `false`\n\nProcess and render draft posts.\n\n#### future\n\nType: `boolean`\nDefault: `false`\n\nPublishes posts with a future date.\n\n#### lsi\n\nType: `boolean`\nDefault: `false`\n\nProduce an index for related posts.\n\n#### limit_posts\n\nType: `number`\n\nLimit the number of posts to parse and publish.\n\n#### port\n\nType: `string or number`\n\nListen on the given port (requires `server`).\n\n#### host\n\nType: `string`\n\nListen at the given hostname (requires `server`).\n\n#### baseurl\n\nType: `string`\n\nServe the website from the given base URL (requires `server`).\n\n#### bundleExec\n\nType: `boolean`\nDefault: `false`\n\nRun `jekyll` with [bundle exec](http://gembundler.com/v1.3/man/bundle-exec.1.html).\n\n## Usage examples\n\nFollow [this grunt.js example](https://gist.github.com/3753650) to get started with grunt-jekyll right away.\n\n### Example config\n\n```js\ngrunt.initConfig({\n  jekyll: {                   \t\t\t// Task\n  \toptions: {\t\t\t\t\t\t\t// Universal options\n        bundleExec: true,\n        src : \'<%= app %>\'\n  \t},\n    dist: { \t                \t\t// Target\n      options: {\t           \t\t\t// Target options\n    \tdest: \'<%= dist %>\',\n\t\tconfig: \'_config.yml,_config.build.yml\'\n      }\n    },\n    serve: {                   \t\t\t// Another target\n      options: {\n        dest: \'.jekyll\',\n        drafts: true\n      }\n    }\n  }\n});\n\ngrunt.loadNpmTasks(\'grunt-jekyll\');\n\ngrunt.registerTask(\'default\', [\'jshint\', \'jekyll\']);\n```\n\n### Example usage\n\n#### Use the `raw` option\n\n```js\ngrunt.initConfig({\n  jekyll: {\n    dist: {\n      options: {\n        config: \'_config.yml\'.\n        // Construct a string with JavaScript.\n        // Remember, in YAML line breaks and indentation matter.\n\t\traw: \'pygments: false\\n\' +\n\t\t\t \'exclude: [\\\'development\\\']\\n\' +\n\t\t\t \'author:\\n\' +\n             \'  name: \' + fetchAuthor() + \'\\n\' +\n             \'  email: \' + fetchEmail()\n        }\n    }\n  }\n});\n```\n\n## Changelog\n\n- v0.4.1: Internal optimizations.\n- v0.4.0: Added setup for tests.\n- v0.3.9: Consolidating branches and bumping version #.\n- v0.3.8: Added robwierzbowski\'s raw option and other PRs.\n- v0.3.6:\n    - Reviewed Jekyll [source](https://github.com/mojombo/jekyll/blob/master/bin/jekyll) and updated plugin with new flags.\n    - Reviewed and warned about deprecated flags.\n    - Updated documentation to match flag updates. (Rewritten as a list)\n- v0.3.3: Updated link in documentation. Added to-do list.\n- v0.3.2: Added option to select config file. Removed deprecated --pygments option flag. Bugfixes.\n- v0.3.0: Update for Jekyll 1.0\n- v0.2.1: Fixed destination path option.\n- v0.2.0: Updated README with better options. Options are more flexible.\n- v0.1.6: Updated README with better example.\n- v0.1.0: Initial Release.\n\n\n## MIT License\n\ngrunt-jekyll is freely distributable under the terms of the MIT license.\n\nCopyright (c) 2012, Danny Garcia. All rights reserved.\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation\nfiles (the "Software"), to deal in the Software without restriction, including without limitation the rights to use,\ncopy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n\n\n[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/dannygarcia/grunt-jekyll/trend.png)](https://bitdeli.com/free "Bitdeli Badge")\n\n',
+36 silly resolved     readmeFilename: 'README.md',
+36 silly resolved     _id: 'grunt-jekyll@0.4.1',
+36 silly resolved     _from: 'grunt-jekyll@' } ]
+37 info install grunt-jekyll@0.4.1 into /Users/lwetherell/Documents/_dev/_Bootstrap_Mobile/bower_components/bootstrap
+38 info installOne grunt-jekyll@0.4.1
+39 info /Users/lwetherell/Documents/_dev/_Bootstrap_Mobile/bower_components/bootstrap/node_modules/grunt-jekyll unbuild
+40 info preuninstall grunt-jekyll@0.4.1
+41 info uninstall grunt-jekyll@0.4.1
+42 verbose true,/Users/lwetherell/Documents/_dev/_Bootstrap_Mobile/bower_components/bootstrap/node_modules,/Users/lwetherell/Documents/_dev/_Bootstrap_Mobile/bower_components/bootstrap/node_modules unbuild grunt-jekyll@0.4.1
+43 verbose /Users/lwetherell/Documents/_dev/_Bootstrap_Mobile/bower_components/bootstrap/node_modules/.bin,[object Object] binRoot
+44 info postuninstall grunt-jekyll@0.4.1
+45 verbose tar unpack /Users/lwetherell/.npm/grunt-jekyll/0.4.1/package.tgz
+46 silly lockFile 65146a83-tstrap-node-modules-grunt-jekyll tar:///Users/lwetherell/Documents/_dev/_Bootstrap_Mobile/bower_components/bootstrap/node_modules/grunt-jekyll
+47 verbose lock tar:///Users/lwetherell/Documents/_dev/_Bootstrap_Mobile/bower_components/bootstrap/node_modules/grunt-jekyll /Users/lwetherell/.npm/65146a83-tstrap-node-modules-grunt-jekyll.lock
+48 silly lockFile f2afb257-m-grunt-jekyll-0-4-1-package-tgz tar:///Users/lwetherell/.npm/grunt-jekyll/0.4.1/package.tgz
+49 verbose lock tar:///Users/lwetherell/.npm/grunt-jekyll/0.4.1/package.tgz /Users/lwetherell/.npm/f2afb257-m-grunt-jekyll-0-4-1-package-tgz.lock
+50 silly gunzTarPerm modes [ '755', '644' ]
+51 silly gunzTarPerm extractEntry package.json
+52 silly gunzTarPerm extractEntry .npmignore
+53 silly gunzTarPerm extractEntry README.md
+54 silly gunzTarPerm extractEntry Gruntfile.js
+55 silly gunzTarPerm extractEntry .editorconfig
+56 silly gunzTarPerm extractEntry .jshintrc
+57 silly gunzTarPerm extractEntry .travis.yml
+58 silly gunzTarPerm extractEntry bin/grunt-jekyll
+59 silly gunzTarPerm extractEntry tasks/jekyll.js
+60 silly gunzTarPerm extractEntry test/test.js
+61 silly gunzTarPerm extractEntry test/actual/index.html
+62 silly gunzTarPerm extractEntry test/app/_layouts/home.html
+63 silly gunzTarPerm extractEntry test/app/index.html
+64 silly gunzTarPerm extractEntry test/expected/index.html
+65 silly lockFile 65146a83-tstrap-node-modules-grunt-jekyll tar:///Users/lwetherell/Documents/_dev/_Bootstrap_Mobile/bower_components/bootstrap/node_modules/grunt-jekyll
+66 silly lockFile 65146a83-tstrap-node-modules-grunt-jekyll tar:///Users/lwetherell/Documents/_dev/_Bootstrap_Mobile/bower_components/bootstrap/node_modules/grunt-jekyll
+67 silly lockFile f2afb257-m-grunt-jekyll-0-4-1-package-tgz tar:///Users/lwetherell/.npm/grunt-jekyll/0.4.1/package.tgz
+68 silly lockFile f2afb257-m-grunt-jekyll-0-4-1-package-tgz tar:///Users/lwetherell/.npm/grunt-jekyll/0.4.1/package.tgz
+69 info preinstall grunt-jekyll@0.4.1
+70 verbose readDependencies using package.json deps
+71 verbose readDependencies using package.json deps
+72 verbose cache add [ 'tmp@0.0.21', null ]
+73 verbose cache add name=undefined spec="tmp@0.0.21" args=["tmp@0.0.21",null]
+74 verbose parsed url { protocol: null,
+74 verbose parsed url   slashes: null,
+74 verbose parsed url   auth: null,
+74 verbose parsed url   host: null,
+74 verbose parsed url   port: null,
+74 verbose parsed url   hostname: null,
+74 verbose parsed url   hash: null,
+74 verbose parsed url   search: null,
+74 verbose parsed url   query: null,
+74 verbose parsed url   pathname: 'tmp@0.0.21',
+74 verbose parsed url   path: 'tmp@0.0.21',
+74 verbose parsed url   href: 'tmp@0.0.21' }
+75 verbose cache add name="tmp" spec="0.0.21" args=["tmp","0.0.21"]
+76 verbose parsed url { protocol: null,
+76 verbose parsed url   slashes: null,
+76 verbose parsed url   auth: null,
+76 verbose parsed url   host: null,
+76 verbose parsed url   port: null,
+76 verbose parsed url   hostname: null,
+76 verbose parsed url   hash: null,
+76 verbose parsed url   search: null,
+76 verbose parsed url   query: null,
+76 verbose parsed url   pathname: '0.0.21',
+76 verbose parsed url   path: '0.0.21',
+76 verbose parsed url   href: '0.0.21' }
+77 verbose addNamed [ 'tmp', '0.0.21' ]
+78 verbose addNamed [ '0.0.21', '0.0.21' ]
+79 silly lockFile ed890905-tmp-0-0-21 tmp@0.0.21
+80 verbose lock tmp@0.0.21 /Users/lwetherell/.npm/ed890905-tmp-0-0-21.lock
+81 verbose url raw tmp/0.0.21
+82 verbose url resolving [ 'https://registry.npmjs.org/', './tmp/0.0.21' ]
+83 verbose url resolved https://registry.npmjs.org/tmp/0.0.21
+84 info trying registry request attempt 1 at 18:20:17
+85 verbose etag "7QJQTYOMZPC1JQELG8E23DP60"
+86 http GET https://registry.npmjs.org/tmp/0.0.21
+87 http 304 https://registry.npmjs.org/tmp/0.0.21
+88 silly registry.get cb [ 304,
+88 silly registry.get   { date: 'Fri, 04 Apr 2014 22:20:17 GMT',
+88 silly registry.get     server: 'Apache',
+88 silly registry.get     via: '1.1 varnish',
+88 silly registry.get     'last-modified': 'Fri, 04 Apr 2014 20:44:57 GMT',
+88 silly registry.get     'cache-control': 'max-age=1',
+88 silly registry.get     etag: '"7QJQTYOMZPC1JQELG8E23DP60"',
+88 silly registry.get     'x-served-by': 'cache-v41-ASH',
+88 silly registry.get     'x-cache': 'HIT',
+88 silly registry.get     'x-cache-hits': '2',
+88 silly registry.get     'x-timer': 'S1396650017.497717857,VS0,VE0',
+88 silly registry.get     vary: 'Accept',
+88 silly registry.get     'content-length': '0',
+88 silly registry.get     'keep-alive': 'timeout=10, max=50',
+88 silly registry.get     connection: 'Keep-Alive' } ]
+89 verbose etag tmp/0.0.21 from cache
+90 silly lockFile ed890905-tmp-0-0-21 tmp@0.0.21
+91 silly lockFile ed890905-tmp-0-0-21 tmp@0.0.21
+92 silly resolved [ { name: 'tmp',
+92 silly resolved     version: '0.0.21',
+92 silly resolved     description: 'Temporary file and directory creator',
+92 silly resolved     author:
+92 silly resolved      { name: 'KARASZI István',
+92 silly resolved        email: 'github@spam.raszi.hu',
+92 silly resolved        url: 'http://raszi.hu/' },
+92 silly resolved     homepage: 'http://github.com/raszi/node-tmp',
+92 silly resolved     keywords:
+92 silly resolved      [ 'temporary',
+92 silly resolved        'tmp',
+92 silly resolved        'temp',
+92 silly resolved        'tempdir',
+92 silly resolved        'tempfile',
+92 silly resolved        'tmpdir',
+92 silly resolved        'tmpfile' ],
+92 silly resolved     licenses: [ [Object] ],
+92 silly resolved     repository: { type: 'git', url: 'git://github.com/raszi/node-tmp.git' },
+92 silly resolved     bugs: { url: 'http://github.com/raszi/node-tmp/issues' },
+92 silly resolved     main: 'lib/tmp.js',
+92 silly resolved     scripts: { test: 'vows test/*-test.js' },
+92 silly resolved     engines: { node: '>=0.4.0' },
+92 silly resolved     dependencies: {},
+92 silly resolved     devDependencies: { vows: '~0.7.0' },
+92 silly resolved     readme: '# Tmp\n\nA simple temporary file and directory creator for [node.js.][1]\n\n[![Build Status](https://secure.travis-ci.org/raszi/node-tmp.png?branch=master)](http://travis-ci.org/raszi/node-tmp)\n\n## About\n\nThe main difference between bruce\'s [node-temp][2] is that mine more\naggressively checks for the existence of the newly created temporary file and\ncreates the new file with `O_EXCL` instead of simple `O_CREAT | O_RDRW`, so it\nis safer.\n\nThe API is slightly different as well, Tmp does not yet provide synchronous\ncalls and all the parameters are optional.\n\nYou can set whether you want to remove the temporary file on process exit or\nnot, and the destination directory can also be set.\n\n## How to install\n\n```bash\nnpm install tmp\n```\n\n## Usage\n\n### File creation\n\nSimple temporary file creation, the file will be unlinked on process exit.\n\n```javascript\nvar tmp = require(\'tmp\');\n\ntmp.file(function _tempFileCreated(err, path, fd) {\n  if (err) throw err;\n\n  console.log("File: ", path);\n  console.log("Filedescriptor: ", fd);\n});\n```\n\n### Directory creation\n\nSimple temporary directory creation, it will be removed on process exit.\n\nIf the directory still contains items on process exit, then it won\'t be removed.\n\n```javascript\nvar tmp = require(\'tmp\');\n\ntmp.dir(function _tempDirCreated(err, path) {\n  if (err) throw err;\n\n  console.log("Dir: ", path);\n});\n```\n\nIf you want to cleanup the directory even when there are entries in it, then\nyou can pass the `unsafeCleanup` option when creating it.\n\n### Filename generation\n\nIt is possible with this library to generate a unique filename in the specified\ndirectory.\n\n```javascript\nvar tmp = require(\'tmp\');\n\ntmp.tmpName(function _tempNameGenerated(err, path) {\n    if (err) throw err;\n\n    console.log("Created temporary filename: ", path);\n});\n```\n\n## Advanced usage\n\n### File creation\n\nCreates a file with mode `0644`, prefix will be `prefix-` and postfix will be `.txt`.\n\n```javascript\nvar tmp = require(\'tmp\');\n\ntmp.file({ mode: 0644, prefix: \'prefix-\', postfix: \'.txt\' }, function _tempFileCreated(err, path, fd) {\n  if (err) throw err;\n\n  console.log("File: ", path);\n  console.log("Filedescriptor: ", fd);\n});\n```\n\n### Directory creation\n\nCreates a directory with mode `0755`, prefix will be `myTmpDir_`.\n\n```javascript\nvar tmp = require(\'tmp\');\n\ntmp.dir({ mode: 0750, prefix: \'myTmpDir_\' }, function _tempDirCreated(err, path) {\n  if (err) throw err;\n\n  console.log("Dir: ", path);\n});\n```\n\n### mkstemps like\n\nCreates a new temporary directory with mode `0700` and filename like `/tmp/tmp-nk2J1u`.\n\n```javascript\nvar tmp = require(\'tmp\');\n\ntmp.dir({ template: \'/tmp/tmp-XXXXXX\' }, function _tempDirCreated(err, path) {\n  if (err) throw err;\n\n  console.log("Dir: ", path);\n});\n```\n\n### Filename generation\n\nThe `tmpName()` function accepts the `prefix`, `postfix`, `dir`, etc. parameters also:\n\n```javascript\nvar tmp = require(\'tmp\');\n\ntmp.tmpName({ template: \'/tmp/tmp-XXXXXX\' }, function _tempNameGenerated(err, path) {\n    if (err) throw err;\n\n    console.log("Created temporary filename: ", path);\n});\n```\n\n## Graceful cleanup\n\nOne may want to cleanup the temporary files even when an uncaught exception\noccurs. To enforce this, you can call the `setGracefulCleanup()` method:\n\n```javascript\nvar tmp = require(\'tmp\');\n\ntmp.setGracefulCleanup();\n```\n\n## Options\n\nAll options are optional :)\n\n  * `mode`: the file mode to create with, it fallbacks to `0600` on file creation and `0700` on directory creation\n  * `prefix`: the optional prefix, fallbacks to `tmp-` if not provided\n  * `postfix`: the optional postfix, fallbacks to `.tmp` on file creation\n  * `template`: [`mkstemps`][3] like filename template, no default\n  * `dir`: the optional temporary directory, fallbacks to system default (guesses from environment)\n  * `tries`: how many times should the function try to get a unique filename before giving up, default `3`\n  * `keep`: signals that the temporary file or directory should not be deleted on exit, default is `false`, means delete\n  * `unsafeCleanup`: recursively removes the created temporary directory, even when it\'s not empty. default is `false`\n\n[1]: http://nodejs.org/\n[2]: https://github.com/bruce/node-temp\n[3]: http://www.kernel.org/doc/man-pages/online/pages/man3/mkstemp.3.html\n',
+92 silly resolved     readmeFilename: 'README.md',
+92 silly resolved     _id: 'tmp@0.0.21',
+92 silly resolved     _from: 'tmp@0.0.21' } ]
+93 info install tmp@0.0.21 into /Users/lwetherell/Documents/_dev/_Bootstrap_Mobile/bower_components/bootstrap/node_modules/grunt-jekyll
+94 info installOne tmp@0.0.21
+95 info /Users/lwetherell/Documents/_dev/_Bootstrap_Mobile/bower_components/bootstrap/node_modules/grunt-jekyll/node_modules/tmp unbuild
+96 verbose tar unpack /Users/lwetherell/.npm/tmp/0.0.21/package.tgz
+97 silly lockFile 1f51480b-es-grunt-jekyll-node-modules-tmp tar:///Users/lwetherell/Documents/_dev/_Bootstrap_Mobile/bower_components/bootstrap/node_modules/grunt-jekyll/node_modules/tmp
+98 verbose lock tar:///Users/lwetherell/Documents/_dev/_Bootstrap_Mobile/bower_components/bootstrap/node_modules/grunt-jekyll/node_modules/tmp /Users/lwetherell/.npm/1f51480b-es-grunt-jekyll-node-modules-tmp.lock
+99 silly lockFile 7cb3fe51-erell-npm-tmp-0-0-21-package-tgz tar:///Users/lwetherell/.npm/tmp/0.0.21/package.tgz
+100 verbose lock tar:///Users/lwetherell/.npm/tmp/0.0.21/package.tgz /Users/lwetherell/.npm/7cb3fe51-erell-npm-tmp-0-0-21-package-tgz.lock
+101 silly gunzTarPerm modes [ '755', '644' ]
+102 silly gunzTarPerm extractEntry package.json
+103 silly gunzTarPerm extractEntry .npmignore
+104 silly gunzTarPerm extractEntry README.md
+105 silly gunzTarPerm extractEntry test.js
+106 silly gunzTarPerm extractEntry .travis.yml
+107 silly gunzTarPerm extractEntry lib/tmp.js
+108 silly gunzTarPerm extractEntry test/base.js
+109 silly gunzTarPerm extractEntry test/dir-test.js
+110 silly gunzTarPerm extractEntry test/file-test.js
+111 silly gunzTarPerm extractEntry test/graceful.js
+112 silly gunzTarPerm extractEntry test/keep.js
+113 silly gunzTarPerm extractEntry test/name-test.js
+114 silly gunzTarPerm extractEntry test/spawn.js
+115 silly gunzTarPerm extractEntry test/unsafe.js
+116 silly gunzTarPerm extractEntry test/symlinkme/file.js
+117 silly gunzTarPerm extractEntry test-all.sh
+118 silly lockFile 1f51480b-es-grunt-jekyll-node-modules-tmp tar:///Users/lwetherell/Documents/_dev/_Bootstrap_Mobile/bower_components/bootstrap/node_modules/grunt-jekyll/node_modules/tmp
+119 silly lockFile 1f51480b-es-grunt-jekyll-node-modules-tmp tar:///Users/lwetherell/Documents/_dev/_Bootstrap_Mobile/bower_components/bootstrap/node_modules/grunt-jekyll/node_modules/tmp
+120 silly lockFile 7cb3fe51-erell-npm-tmp-0-0-21-package-tgz tar:///Users/lwetherell/.npm/tmp/0.0.21/package.tgz
+121 silly lockFile 7cb3fe51-erell-npm-tmp-0-0-21-package-tgz tar:///Users/lwetherell/.npm/tmp/0.0.21/package.tgz
+122 info preinstall tmp@0.0.21
+123 verbose readDependencies using package.json deps
+124 verbose readDependencies using package.json deps
+125 silly resolved []
+126 verbose about to build /Users/lwetherell/Documents/_dev/_Bootstrap_Mobile/bower_components/bootstrap/node_modules/grunt-jekyll/node_modules/tmp
+127 info build /Users/lwetherell/Documents/_dev/_Bootstrap_Mobile/bower_components/bootstrap/node_modules/grunt-jekyll/node_modules/tmp
+128 verbose linkStuff [ false,
+128 verbose linkStuff   false,
+128 verbose linkStuff   false,
+128 verbose linkStuff   '/Users/lwetherell/Documents/_dev/_Bootstrap_Mobile/bower_components/bootstrap/node_modules/grunt-jekyll/node_modules' ]
+129 info linkStuff tmp@0.0.21
+130 verbose linkBins tmp@0.0.21
+131 verbose linkMans tmp@0.0.21
+132 verbose rebuildBundles tmp@0.0.21
+133 info install tmp@0.0.21
+134 info postinstall tmp@0.0.21
+135 verbose about to build /Users/lwetherell/Documents/_dev/_Bootstrap_Mobile/bower_components/bootstrap/node_modules/grunt-jekyll
+136 info build /Users/lwetherell/Documents/_dev/_Bootstrap_Mobile/bower_components/bootstrap/node_modules/grunt-jekyll
+137 verbose linkStuff [ false,
+137 verbose linkStuff   false,
+137 verbose linkStuff   false,
+137 verbose linkStuff   '/Users/lwetherell/Documents/_dev/_Bootstrap_Mobile/bower_components/bootstrap/node_modules' ]
+138 info linkStuff grunt-jekyll@0.4.1
+139 verbose linkBins grunt-jekyll@0.4.1
+140 verbose link bins [ { 'grunt-jekyll': 'bin/grunt-jekyll' },
+140 verbose link bins   '/Users/lwetherell/Documents/_dev/_Bootstrap_Mobile/bower_components/bootstrap/node_modules/.bin',
+140 verbose link bins   false ]
+141 verbose linkMans grunt-jekyll@0.4.1
+142 verbose rebuildBundles grunt-jekyll@0.4.1
+143 verbose rebuildBundles [ 'tmp' ]
+144 info install grunt-jekyll@0.4.1
+145 info postinstall grunt-jekyll@0.4.1
+146 error peerinvalid The package grunt does not satisfy its siblings' peerDependencies requirements!
+146 error peerinvalid Peer grunt-banner@0.2.2 wants grunt@~0.4.1
+146 error peerinvalid Peer grunt-contrib-concat@0.3.0 wants grunt@~0.4.0
+146 error peerinvalid Peer grunt-contrib-copy@0.5.0 wants grunt@~0.4.0
+146 error peerinvalid Peer grunt-exec@0.4.3 wants grunt@~0.4
+146 error peerinvalid Peer grunt-contrib-clean@0.5.0 wants grunt@~0.4.0
+146 error peerinvalid Peer grunt-jekyll@0.4.1 wants grunt@~0.4.1
+146 error peerinvalid Peer grunt-contrib-csslint@0.2.0 wants grunt@~0.4.0
+146 error peerinvalid Peer grunt-contrib-cssmin@0.7.0 wants grunt@~0.4.1
+146 error peerinvalid Peer grunt-contrib-uglify@0.3.3 wants grunt@~0.4.0
+146 error peerinvalid Peer grunt-csscomb@2.0.1 wants grunt@~0.4.2
+146 error peerinvalid Peer grunt-sed@0.1.1 wants grunt@~0.4
+146 error peerinvalid Peer grunt-contrib-connect@0.6.0 wants grunt@~0.4.0
+146 error peerinvalid Peer grunt-contrib-jshint@0.8.0 wants grunt@~0.4.0
+146 error peerinvalid Peer grunt-contrib-watch@0.5.3 wants grunt@~0.4.0
+146 error peerinvalid Peer grunt-contrib-jade@0.9.1 wants grunt@~0.4.1
+146 error peerinvalid Peer grunt-contrib-less@0.9.0 wants grunt@~0.4.0
+146 error peerinvalid Peer grunt-contrib-qunit@0.4.0 wants grunt@~0.4.0
+146 error peerinvalid Peer grunt-saucelabs@5.0.1 wants grunt@~0.4.1
+146 error peerinvalid Peer grunt-html-validation@0.1.15 wants grunt@~0.4.1
+146 error peerinvalid Peer grunt-jscs-checker@0.3.2 wants grunt@0.4.2
+147 error System Darwin 13.1.0
+148 error command "node" "/usr/local/bin/npm" "install" "grunt-jekyll"
+149 error cwd /Users/lwetherell/Documents/_dev/_Bootstrap_Mobile/bower_components/bootstrap
+150 error node -v v0.10.26
+151 error npm -v 1.4.3
+152 error code EPEERINVALID
+153 verbose exit [ 1, true ]

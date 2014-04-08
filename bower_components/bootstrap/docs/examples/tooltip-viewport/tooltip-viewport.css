@@ -1,28 +1,36 @@
-body {
-  height: 1200px;
+body
+{
+    height: 1200px;
 }
-.tooltip {
-  min-width: 250px;
-  max-width: 500px;
+.tooltip
+{
+    min-width: 250px;
+    max-width: 500px;
 }
-.tooltip .tooltip-inner {
-  min-width: 250px;
-  max-width: 500px;
-  min-height: 200px;
+.tooltip .tooltip-inner
+{
+    min-width: 250px;
+    max-width: 500px;
+    min-height: 200px;
 }
-.placeholder {
-  height: 900px;
+.placeholder
+{
+    height: 900px;
 }
-.container-viewport {
-  position: absolute;
-  top: 600px;
-  left: 200px;
-  width: 600px;
-  height: 400px;
-  background: #c00;
+.container-viewport
+{
+    position: absolute;
+    top: 600px;
+    left: 200px;
+
+    width: 600px;
+    height: 400px;
+
+    background: #c00;
 }
-.btn-bottom {
-  position: absolute;
-  bottom: 0;
-  left: 0;
+.btn-bottom
+{
+    position: absolute;
+    bottom: 0;
+    left: 0;
 }
